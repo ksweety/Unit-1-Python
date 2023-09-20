@@ -33,8 +33,7 @@ print("Hello" +name+"")
 # Exercise 8 
 for i in fav_food:
     print(i)
-
+ 
 # Exercise 9 
 while age>71:
     print("oh yea we gettin money")
-    
