@@ -52,7 +52,11 @@ TASK 4:
 Create a dictionary with keys as fruit names and values as their respective quantities. 
 Then print out the quantity of one of the fruits.
 """
-fruits 
+fruits =  {
+    "apple": 3,
+    "banana": 4, 
+    
+} 
 
 """
 TASK 5:
