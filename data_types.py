@@ -55,7 +55,6 @@ Then print out the quantity of one of the fruits.
 fruits =  {
     "apple": 3,
     "banana": 4, 
-    
 } 
 
 """
