@@ -1,0 +1,68 @@
+import math #importing math!
+
+
+
+def calculation(): #function for calculations
+    if userinp == "add": #adds the two numbers
+        print(num1 + num2)
+    elif userinp == 'sub':#subtracts the two numbers
+        print(num1 - num2)
+    elif userinp == 'mult':#multiplies the two numbers
+        print(num1 * num2)
+    elif userinp == 'div':#divides the two numbers
+        if num2 == 0:
+            print("This is not possible:")
+        else:
+            print(num1 / num2)
+    elif userinp == 'flrdiv':#Floor Divides the two numbers
+        if num2 == 0:
+            print("This is not possible:")
+        else:
+            print(num1 // num2)
+    elif userinp == 'expo':#Does the exponents of the two numbers
+        print(num1 ** num2)
+    elif userinp == 'remain': #gets the remainder of the two numbers
+        print(num1 % num2)
+          
+
+print("Welcome to the Calculatinator-inator 9000 Version 1!") #Welcome message
+
+
+num1 = float(input("Enter the first number: ")) #asking for the integer value for the first number
+num2 = float(input("Enter the second number: ")) #asking for the integer value for the second number
+
+
+
+print('''
+Index: 
+
+add = Addition
+sub = Subtraction
+mult = Multiplication
+div = Division
+flrdiv = Floor Division
+expo = Expontents
+remain = Remainder
+''') # creating the key for user inrterface
+
+print("Please select an opperation (case sensitive):") # Telling them to choose a opperation
+
+userinp = input('Pick: ')#asks user for the opperation they want to pick
+
+
+if userinp != "add":
+    print('This is not an opperation') #if it is not any of the opperations it does not print
+elif userinp != "add":
+    print('This is not an opperation')
+elif userinp != "add":
+    print('This is not an opperation')
+elif userinp != "add":
+    print('This is not an opperation')
+elif userinp != "add":
+    print('This is not an opperation')
+elif userinp != "add":
+    print('This is not an opperation')
+elif userinp != "add":
+    print('This is not an opperation')
+
+calculation() # running function defined earlier
